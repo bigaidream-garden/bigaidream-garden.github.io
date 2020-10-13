@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>experiment on Jethro&#39;s Braindump</title>
+    <link>https://bigaidream.github.io/mind-garden/tags/experiment/</link>
+    <description>Recent content in experiment on Jethro&#39;s Braindump</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2020 00:57:28 +0800</lastBuildDate><atom:link href="https://bigaidream.github.io/mind-garden/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimental Data Science</title>
+      <link>https://bigaidream.github.io/mind-garden/posts/eds/</link>
+      <pubDate>Fri, 17 Jul 2020 00:57:28 +0800</pubDate>
+      
+      <guid>https://bigaidream.github.io/mind-garden/posts/eds/</guid>
+      <description>A/B Testing - When should A/B Testing not be Trusted to Make Decisions - Quora
+ Rubin Causal Model (Wikipedia)  MDE  generally proportional to number of users Statistical power and Minimum Detectable Effect (MDE)  MDE treated as smallest effect size (signals) you can find in your experiment with certain probability    TODO Power, minimal detectable effect, and bucket size estimation in A/B tests  &amp;lt;biblio.bib&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>

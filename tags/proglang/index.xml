@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proglang on Jethro&#39;s Braindump</title>
+    <link>https://bigaidream.github.io/mind-garden/tags/proglang/</link>
+    <description>Recent content in proglang on Jethro&#39;s Braindump</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jul 2020 21:44:37 +0800</lastBuildDate><atom:link href="https://bigaidream.github.io/mind-garden/tags/proglang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compilers</title>
+      <link>https://bigaidream.github.io/mind-garden/posts/compilers/</link>
+      <pubDate>Fri, 24 Jul 2020 21:44:37 +0800</pubDate>
+      
+      <guid>https://bigaidream.github.io/mind-garden/posts/compilers/</guid>
+      <description>What are compilers? Compilers are programs that read in one (source) language, and translate them into another (target) language.
+Compilers need to perform two main tasks:
+ Analysis: breaking up a source program into constituent parts, and create an intermediate representation Synthesis: Construct the desired target program from an intermediate representation  A compiler is often designed in a number of phases:
+ lexical analyses reads a stream of characters, and groups them into a stream of tokens (logically cohesive character sequences).</description>
+    </item>
+    
+  </channel>
+</rss>

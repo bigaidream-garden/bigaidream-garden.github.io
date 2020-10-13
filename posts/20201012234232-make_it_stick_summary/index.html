@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html><title>make it stick (summary)</title>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link href="https://unpkg.com/tippy.js@6.2.3/themes/light.css" rel="stylesheet">
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+
+<link rel="stylesheet" href="https://bigaidream.github.io/mind-garden/css/main.min.71683729ce2b3828b73444673c3d142a50ddeb06e1ea07dc06609a1efdbc6da7.css"/>
+<body><header>
+    <a href="/" id="logo">    
+    <svg id="Capa_1" enable-background="new 0 0 511.992 511.992" height="512" viewBox="0 0 511.992 511.992" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m256 420.826c0 38.345-11.844 68.545-49.991 68.014-27.744-.385-51.481-15.31-61.853-39.46-1.239-2.887-4.024-4.734-7.154-4.725-.07 0-.135 0-.201 0-47.474 0-75.537-26.171-75.537-73.882 0-5.633.542-11.138 1.568-16.468.62-3.229-.825-6.489-3.671-8.125-35.493-20.432-49.161-46.127-49.161-90.183 0-44.057 13.668-69.757 49.161-90.185 2.846-1.636 4.291-4.896 3.671-8.13-1.026-5.33-1.568-10.83-1.568-16.463 0-47.711 28.064-73.882 75.537-73.882h.201c3.13.009 5.915-1.837 7.154-4.729 10.372-24.145 34.109-39.069 61.853-39.455 38.15-.532 49.991 29.668 49.991 68.013" fill="#ff9eb1"/></g><g><g><g><path d="m256 91.166c0-38.344 11.844-68.545 49.991-68.014 27.744.385 51.481 15.31 61.853 39.46 1.239 2.887 4.024 4.734 7.154 4.724h.201c47.474 0 75.537 26.171 75.537 73.882 0 5.633-.542 11.138-1.568 16.468-.62 3.229.825 6.489 3.671 8.125 35.493 20.434 49.161 46.128 49.161 90.185s-13.668 69.756-49.161 90.185c-2.846 1.636-4.291 4.896-3.671 8.13 1.026 5.33 1.568 10.83 1.568 16.463 0 47.711-28.064 73.882-75.537 73.882h-.201c-3.13-.009-5.915 1.837-7.154 4.729-10.372 24.145-34.109 39.069-61.853 39.455-38.15.531-49.991-29.669-49.991-68.014" fill="#ff7d97"/></g></g><g><g><path d="m502 265.996c-4.193 0-7.984-2.713-9.407-6.636-1.419-3.912-.16-8.459 3.063-11.092 3.291-2.689 8.009-2.99 11.621-.758 3.568 2.205 5.404 6.578 4.478 10.669-1.02 4.501-5.126 7.817-9.755 7.817z"/></g></g></g><g><path d="m340.83 229.18h-58.013v-58.014h-53.634v58.014h-58.013v53.633h58.013v58.013h53.634v-58.013h58.013z" fill="#faf7f5"/></g></g><g><g><path d="m498.468 291.859c-5.141-2.02-10.945.508-12.965 5.648-6.442 16.389-18.055 28.727-37.649 40.005-6.513 3.746-9.932 11.253-8.505 18.689.921 4.783 1.388 9.686 1.388 14.572 0 41.792-22.662 63.882-65.537 63.882h-.225c-.938 0-1.864.074-2.771.217-15.031-4.92-23.796-20.93-19.661-36.479 1.42-5.337-1.757-10.815-7.094-12.234-5.333-1.418-10.814 1.756-12.234 7.094-5.958 22.405 4.241 45.396 23.384 56.443-9.583 17.791-28.602 28.836-50.748 29.145-11.303.146-19.802-2.743-26.011-8.867-9.184-9.057-13.84-25.592-13.84-49.148v-70h16.816c5.522 0 10-4.477 10-10v-48.014h48.014c5.522 0 10-4.477 10-10v-53.632c0-5.523-4.478-10-10-10h-48.014v-48.014c0-5.523-4.478-10-10-10h-16.816v-70c0-23.555 4.657-40.09 13.841-49.148 6.21-6.123 14.696-9.022 26.011-8.867 23.862.332 44.096 13.132 52.803 33.405.218.509.458 1.003.719 1.483-3.225 8.243-9.084 15.093-16.833 19.574-8.993 5.2-19.465 6.581-29.485 3.89-5.337-1.434-10.819 1.73-12.251 7.064-1.433 5.334 1.729 10.819 7.063 12.252 5.074 1.363 10.221 2.037 15.338 2.037 10.2 0 20.272-2.681 29.346-7.928 11.083-6.408 19.607-16.017 24.616-27.575 41.6.67 63.569 22.718 63.569 63.866 0 4.89-.467 9.794-1.389 14.582-1.427 7.426 1.991 14.933 8.502 18.678 19.572 11.267 31.176 23.584 37.625 39.936 1.552 3.934 5.318 6.334 9.306 6.333 1.221 0 2.462-.225 3.666-.7 5.138-2.026 7.66-7.834 5.634-12.972-7.943-20.141-22.201-35.773-44.801-49.086.967-5.521 1.457-11.155 1.457-16.772 0-52.114-31.48-83.391-84.288-83.876-12.157-26.863-38.963-43.753-70.318-44.189-16.67-.232-30.255 4.688-40.332 14.625-3.813 3.76-7.08 8.226-9.797 13.382-2.717-5.156-5.984-9.622-9.797-13.382-10.075-9.937-23.668-14.852-40.333-14.625-31.353.437-58.158 17.325-70.32 44.189-52.807.485-84.286 31.762-84.286 83.876 0 5.617.49 11.253 1.458 16.771-37.422 22.031-52.724 50.552-52.724 98.008 0 47.451 15.299 75.969 52.721 98.006-.967 5.521-1.457 11.154-1.457 16.772 0 52.114 31.48 83.391 84.288 83.876 12.157 26.863 38.963 43.753 70.318 44.189.377.005.751.008 1.125.008 16.172 0 29.358-4.92 39.207-14.632 3.813-3.76 7.08-8.226 9.797-13.382 2.717 5.156 5.984 9.622 9.797 13.382 9.849 9.713 23.034 14.633 39.208 14.632.373 0 .749-.003 1.125-.008 31.352-.436 58.158-17.325 70.32-44.189 52.807-.485 84.286-31.762 84.286-83.876 0-5.617-.49-11.253-1.458-16.772 22.634-13.329 36.901-28.989 44.838-49.178 2.022-5.14-.507-10.945-5.647-12.966zm-215.652-52.679h48.014v33.633h-48.014c-5.522 0-10 4.477-10 10v48.014h-33.633v-48.014c0-5.523-4.477-10-10-10h-48.013v-33.633h48.014c5.523 0 10-4.477 10-10v-48.014h33.633v48.014c-.001 5.523 4.477 10 9.999 10zm-50.657 230.794c-6.21 6.124-14.717 9.018-26.011 8.867-23.862-.331-44.096-13.132-52.803-33.405-.218-.509-.458-1.003-.719-1.483 3.225-8.243 9.085-15.093 16.833-19.574 8.992-5.2 19.463-6.581 29.485-3.89 5.337 1.434 10.819-1.73 12.251-7.064 1.433-5.333-1.73-10.819-7.064-12.251-15.188-4.08-31.059-1.988-44.684 5.891-11.083 6.408-19.607 16.017-24.616 27.575-41.6-.67-63.569-22.718-63.569-63.866 0-4.89.467-9.794 1.389-14.582 1.427-7.427-1.991-14.934-8.502-18.678-32.183-18.528-44.149-40.621-44.149-81.517 0-40.9 11.966-62.994 44.146-81.517 6.513-3.746 9.932-11.253 8.505-18.689-.921-4.783-1.388-9.686-1.388-14.572 0-41.792 22.662-63.882 65.537-63.882h.225c.938 0 1.864-.074 2.771-.217 15.031 4.92 23.796 20.93 19.661 36.479-1.42 5.337 1.757 10.815 7.094 12.234.861.229 1.726.338 2.577.338 4.422 0 8.467-2.956 9.657-7.432 5.958-22.405-4.241-45.396-23.384-56.443 9.583-17.791 28.602-28.836 50.748-29.145 11.267-.15 19.801 2.743 26.011 8.867 9.184 9.057 13.84 25.592 13.84 49.148v70h-16.816c-5.522 0-10 4.477-10 10v48.014h-48.014c-5.522 0-10 4.477-10 10v53.633c0 5.523 4.478 10 10 10h48.014v48.014c0 5.523 4.478 10 10 10h16.816v70c0 23.554-4.657 40.09-13.841 49.147z"/><path d="m139.699 228.227c-6.766 0-13.186 1.514-18.907 4.31-3.049-8.65-8.286-16.485-15.336-22.673-4.151-3.643-10.469-3.233-14.113.918-3.643 4.15-3.232 10.469.918 14.112 6.711 5.891 10.816 14.143 11.498 22.953-1.213 1.914-2.293 3.946-3.225 6.088-1.145 2.633-2.015 5.316-2.615 8.019-13.414 11.422-33.601 10.834-46.225-1.792-3.906-3.904-10.236-3.904-14.143 0-3.905 3.905-3.905 10.237 0 14.143 10.524 10.524 24.354 15.784 38.193 15.784 8.04 0 16.083-1.775 23.484-5.325 1.904 5.443 4.967 10.557 9.136 15.03.596.639 1.204 1.269 1.826 1.891 1.953 1.953 4.512 2.929 7.071 2.929 2.56 0 5.118-.976 7.071-2.929 3.905-3.905 3.905-10.237 0-14.143-.458-.458-.906-.922-1.342-1.389-6.26-6.716-7.799-15.778-4.118-24.241 2.878-6.616 9.86-13.686 20.826-13.686 5.522 0 10-4.477 10-10 .001-5.522-4.476-9.999-9.999-9.999z"/><path d="m387.667 287.543c-3.905 3.905-3.905 10.237 0 14.143 1.953 1.953 4.512 2.929 7.071 2.929s5.118-.976 7.071-2.929c.622-.622 1.23-1.253 1.83-1.896 4.167-4.471 7.229-9.583 9.133-15.025 7.401 3.549 15.444 5.324 23.484 5.324 13.839 0 27.67-5.261 38.193-15.784 3.905-3.905 3.905-10.237 0-14.143-3.906-3.904-10.236-3.904-14.143 0-12.624 12.625-32.811 13.214-46.225 1.792-.6-2.702-1.47-5.386-2.615-8.019-.932-2.142-2.012-4.175-3.225-6.088.682-8.81 4.787-17.062 11.498-22.953 4.15-3.644 4.561-9.962.918-14.112-3.646-4.151-9.964-4.563-14.113-.918-7.05 6.189-12.287 14.023-15.336 22.673-5.721-2.796-12.141-4.31-18.907-4.31-5.523 0-10 4.477-10 10s4.477 10 10 10c10.966 0 17.948 7.07 20.826 13.686 3.681 8.463 2.142 17.525-4.114 24.237-.44.47-.888.935-1.346 1.393z"/></g></g></g></svg>
+  </a>
+  <h3 class="site-title">Jie&#39;s Mind Garden</h3>    
+</header>
+
+<div class="grid-container">
+        <div class="grid">
+                <div class="page" data-uuid="1f1adcee86d02b1582bf2f92e6ac5044" data-level="1">
+                        <div class="content">
+                                <h1>make it stick (summary)</h1>
+                                <blockquote>
+<p>Written in 2014</p>
+</blockquote>
+<!--quoteend-->
+<blockquote>
+<p>This is a digest of the book
+<a href="http://www.amazon.com/Make-Stick-Peter-C-Brown-ebook/dp/B00JQ3FN7M/ref=sr%5F1%5F1?s=books&amp;ie=UTF8&amp;qid=1428056260&amp;sr=1-1&amp;keywords=make+it+stick"><em>Make
+it stick</em></a>. Highly recommend it. I&rsquo;m assuming that uploading the
+digest alone should be alright. If I were wrong, please let me know
+<a href="https://bigaidream.github.io/#contact">https://bigaidream.github.io/#contact</a> as soon as possible, and I
+will delete it immediately.</p>
+</blockquote>
+<dl>
+<dt>Keywords</dt>
+<dd><a href="/mind-garden/posts/20201012233945-how_to_study/">how to study</a></dd>
+</dl>
+<h2 id="ch1-make-it-stick-the-science-of-successful-learning-digest">Ch1, Make It Stick, the Science of Successful Learning (Digest)</h2>
+<h3 id="learning-is-misunderstood">Learning is Misunderstood</h3>
+<p><strong>Claims We Make in This Book</strong> - Learning is deeper and more durable when
+it&rsquo;s <strong>effortful</strong>. - we are <strong>poor judges</strong> of when we are learning well
+and when we&rsquo;re not. When the going is harder and slower and it doesn&rsquo;t
+feel productive, we are drawn to strategies that feel more fruitful,
+unaware that the gains from these strategies are often temporary. -
+<strong>Rereading text</strong> and <strong>massed practice</strong> of a skill or new knowledge are
+by far the preferred study strategies of learners of all stripes, but
+they&rsquo;re also among the <strong>least productive</strong>. - <strong>Retrieval practice</strong>
+&ndash;recalling facts or concepts or events from memory&ndash;is a more effective
+learning strategy than review by rereading. Flashcards are a simple
+example. A single, simple quiz after reading a text or hearing a lecture
+produces better learning and remembering than rereading the text or
+reviewing lecture notes. <code>Periodic</code> practice arrests forgetting,
+strengthens retrieval routes, and is essential for hanging onto the
+knowledge you want to gain. - When you <strong>space out practice</strong> at a task
+and get a little rusty between sessions, or you interleave the practice
+of two or more subjects, retrieval is harder and feels less productive,
+but the effort produces longer lasting learning and enables more
+versatile application of it in later settings. - Trying to solve a
+problem <strong>before being taught the solution</strong> leads to better learning,
+even when errors are made in the attempt. - When you&rsquo;are adept at
+extracting the underlying principles or &ldquo;rules&rdquo; that differentiate types
+of problems, you&rsquo;re more successful at picking the right solutions in
+unfamiliar situations. This skill is better acquired through
+<strong>interleaved and varied practice</strong> than massed practice. - Testing helps
+calibrate our judgments of what we&rsquo;ve learned. - All new learning
+requires a <strong>foundation of prior knowledge</strong>. - If you are just engaging
+in mechanical repetition, you quickly hit the limit of what you can keep
+in mind. However, if you practice <strong>elaboration</strong>, there&rsquo;s no known limit
+to how much you can learn. <code>Elaboration</code> is the process of giving new
+material meaning by expressing it in your own words and connecting it
+with what you already know. The more you can explain about the way your
+new learning relates to your prior knowledge, the stronger your grasp of
+the new learning will be, and the more connections you create that will
+help you remember it later. - Putting new knowledge into a <strong>larger
+context</strong> helps learning. - People who learn to <strong>extract the key ideas
+from new material and organize them into a mental model</strong> and connect the
+model to prior knowledge show an advantage in learning complex
+mastery. - Many people believe that their intellectual ability is
+hardwired from birth, and that failure to meet a learning challenge is
+an indictment of their native ability. But every time you learn
+something new, <em>you change the brain</em> &ndash;the residue of your experiences
+is stored.</p>
+<h3 id="illusions-of-knowing">Illusions of Knowing</h3>
+<p>If rereading is largely ineffective, why do students favor it? Rising
+familiarity with a text and fluency in reading it can create an illusion
+of mastery.</p>
+<h2 id="ch2-to-learn-retrieve">Ch2, To Learn, Retrieve</h2>
+<h3 id="reflection-is-a-form-of-practice">Reflection Is a Form of Practice</h3>
+<p>Reflection can involve several cognitive activities that lead to
+stronger learning: retrieving knowledge and earlier training from
+memory, connecting these to new experiences, and visualizing and
+mentally rehearsing what you might do differently next time.</p>
+<h3 id="the-testing-effect">The Testing Effect</h3>
+<p>Practicing retrieval makes learning stick far better than re-exposure to
+the original material does. This is the testing effect, also known as
+the retrieval-practice effect.</p>
+<h3 id="studying-the-testing-effect-in-the-lab">Studying the Testing Effect in the Lab</h3>
+<p>When retrieval practice is spaced, allowing some forgetting to occur
+between tests, it leads to stronger long-term retention than when it is
+massed.</p>
+<h3 id="studying-the-testing-effect-in-the-wild">Studying the Testing Effect &ldquo;In the Wild&rdquo;</h3>
+<h3 id="exploring-nuances">Exploring Nuances</h3>
+<h3 id="the-takeaway">The Takeaway</h3>
+<p><strong>Practice at retrieving new knowledge or skill from memory is a potent
+tool for learning and durable retention.</strong> <strong>Effortful retrieval</strong> makes
+for stronger learning and retention. The greater the effort to retrieve
+learning, provided that you succeed, the more that learning is
+strengthened by retrieval. After an initial test, <strong>delaying subsequent
+retrieval practice</strong> is more potent for reinforcing retention than
+immediate practice, because delayed retrieval requires more effort.
+<strong>Repeated retrieval</strong> not only makes memories more durable but produces
+knowledge that can be retrieved more readily, in more varied settings,
+and applied to a wider variety of problems. While cramming can produce
+better scores on an immediate exam, the advantage quickly fades because
+there is much greater forgetting after retreading than after retrieval
+practice. The benefits of retrieval practice are <strong>long-term</strong>. <strong>Simply
+including one test</strong> (retrieval practice) in a class yields a large
+improvement in final exam scores, and gains continue to increase as the
+frequency of classroom testing increases. <strong>Testing doesn&rsquo;t need to be
+initiated by the instructor</strong>. Students can practice retrieval anywhere;
+no quizzes in the classroom are necessary. Think flashcards &ndash; the way
+second graders learn the multiplication tables can work just as well for
+learners at any age to quiz themselves on anatomy, mathematics, or law.
+Self-testing may be unappealing because it takes more effort than
+rereading, but as noted already, the greater the effort at retrieval,
+the more will be retained. Students who take practice testes have <strong>a
+better grasp of their progress</strong> than those who simply reread the
+material. Giving students <strong>corrective feedback</strong> after tests keeps them
+from incorrectly retaining material they have misunderstood and produces
+better learning of the correct answers.</p>
+<h2 id="ch3-mix-up-your-practice">Ch3, Mix Up Your Practice</h2>
+<h3 id="the-myth-of-massed-practice">The Myth of Massed Practice</h3>
+<p>If learning can be defined as picking up new knowledge or skills and
+being able to apply them later, then how <code>quickly</code> you pick something up
+is only part of the story. Is it *still there *when you need to use it
+out in the everyday world?</p>
+<p>Practice is far more effective when it&rsquo;s broken into separate periods of
+training that are spaced out. Practice that&rsquo;s spaced out, interleaved
+with other learning, and varied produces better mastery, longer
+retention, and more versatility. But these benefits come at a price:
+when practice is spaced, interleaved, and varied, it requires more
+effort.</p>
+<h3 id="spaced-practice">Spaced Practice</h3>
+<p>Why is spaced practice more effective than massed practice? It appears
+that embedding new learning in long-term memory requires a process of
+consolidation, in which memory traces (the brain&rsquo;s representations of
+the new learning) are strengthened, given meaning, and connected to
+prior knowledge - a process that unfolds over hours and may take several
+days.</p>
+<h3 id="interleaved-practice">Interleaved Practice</h3>
+<p>Interleaving the practice of two or more subjects or skills is also a
+more potent alternative to massed practice, and here&rsquo;s a quick example
+of that. Two groups of college students were taught how to find the
+volumes of four obscure geometric solids (wedge, spheroid, spherical
+cone, and half cone). One group then worked a set of practice problems
+that were clustered by problem type (practice four problems for
+computing the volume of a wedge, then four problems for a spheroid,
+etc.). The other group worked the same practice problems, but the
+sequence was mixed (interleaved) rather than clustered by type of
+problem. During practice, the students who worked the problems in
+clusters (that is, massed) averaged 89 percent correct, compared to only
+60 percent for those who worked the problems in a mixed sequence. But in
+the final test a week later, the students who had practiced solving
+problems clustered by type averaged only 20 percent correct, while the
+students whose practice was interleaved averaged 63 percent.</p>
+<p>Now, suppose you &rsquo;re a trainer in a company trying to teach employees a
+complicated new process that involves ten procedures. They typical way
+of doing this is to train up in procedure 1, repreating it many times
+until the trainess really seem to have it down cold. Then you go to
+procedure 2, you do many repetitions of 2, you get that down, and so on.
+That appears to produce fast learning. What would interleaved practice
+look like? You practice procedure 1 just a few times, then switch to
+procedure 4, then switch to 3, then to 7, and so on.</p>
+<p>Research shows unequivocally that mastery and long-term retention are
+much better if you interleave practice than if you mass it.</p>
+<h3 id="varied-practice">Varied Practice</h3>
+<h3 id="developing-discrimination-skills">Developing Discrimination Skills</h3>
+<p>Compared to massed practice, a significant advantage of interleaving and
+variation is that they help us learn better how to assess context and
+discriminate between problems, selecting and applying the correct
+solution from a range of possibilities.</p>
+<h3 id="improving-complex-mastery-for-medical-students">Improving Complex Mastery for Medical Students</h3>
+<h3 id="these-principles-are-broadly-applicable">These Principles Are Broadly Applicable</h3>
+<h3 id="the-takeaway-1">The Takeaway</h3>
+<p>The simple act of spacing out study and practice in installments and
+allowing time to elapse between them makes both the learning and the
+memory stronger, in effect building habit strength. How big an interval,
+you ask? The simple answer: enough so that practice doesn&rsquo;t become a
+mindless repetition. At a minimum, enough time so that a little
+forgetting has set in. A little forgetting between practice sessions can
+be a good thing, if it leads to more effort in practice, but you do not
+want so much forgetting that retrieval essentially involves relearning
+the material. The time periods between sessions of practice let memories
+consolidate.</p>
+<p>Something as simple as a deck of flashcards can provide an example of
+spacing.</p>
+<p><strong>Beware of the familiarity trap:</strong> the feeling that you know something
+and no longer need to practice it. The familiarity can hurt you during
+self-quizzing if you take shortcuts. You have to be disciplined to say,
+&ldquo;All right, I&rsquo;m going to make myself recall all of this and if I don&rsquo;t,
+what did I miss, how did I not know that?&rdquo;</p>
+<p>*Interleaving *two or more subjects during practice also provides a form
+of spacing. Interleaving can also help you develop your ability to
+<strong>discriminate</strong> later between different kinds of problems and select the
+right tool from your growing toolkit of solutions.</p>
+<p>In interleaving, you don&rsquo;t move from a complete practice set of one
+topic to go to another. You <strong>switch before each practice is complete</strong> .A
+friend of ours describes his own experience with this: &ldquo;I go to a hockey
+class and we&rsquo;re learning skating skills, puck handling, shooting, and I
+notice that I get frustrated because we do a little bit of skating and
+just when I think I&rsquo;m getting it, we go to stick handling, and I go home
+frustrated, saying, &lsquo;Why doesn&rsquo;t this guy keep letting us do these
+things until we get it?'&rdquo; This is actually the rare coach who
+understands that it&rsquo;s more effective to distribute practice across these
+different skills than polish each one in turn.</p>
+<p>Like interleaving, <strong>varied practice</strong> helps learners build a broad
+schema, an ability to asses changing conditions and adjust responses to
+fit. Arguably, interleaving and variation help learners reach beyond
+memorization to higher levels of conceptual learning and application,
+building more rounded, deep, and durable learning, what in motor skills
+shows up as underlying habit strength.</p>
+<h2 id="ch4-embrace-difficulties">Ch4, Embrace Difficulties</h2>
+<h3 id="how-learning-occurs">How Learning Occurs</h3>
+<ul>
+<li>Encoding</li>
+<li>Consolidation</li>
+<li>Retrieval Durable, robust learning requires that we do two things.
+First, as we recode and consolidate new material from short-term
+memory into long-term memory, we must anchor it here securely. Second,
+we must associate the material with a diverse set of cues that will
+make us adept at recalling the knowledge later.</li>
+</ul>
+<h3 id="extending-learning-updating-retrieval-cues">Extending Learning: Updating Retrieval Cues</h3>
+<p>Knowledge is more durable if it&rsquo;s <code>deeply entrenched</code>, meaning that you
+have firmly and thoroughly comprehended a concept, it has practical
+importance or keen emotional weight in your life, and it is connected
+with other knowledge that you hold in memory. The parodox is that some
+forgetting is often essential for new learning.</p>
+<h3 id="easier-isnt-better">Easier Isn&rsquo;t Better</h3>
+<p>The easier knowledge or a skill is for you to retrieve, the less your
+retrieval practice will benefit your retention of it. Conversely, the
+more effort you have to expend to retrieve knowledge or skill, the more
+the practice of retrieval will entrench it.</p>
+<h3 id="how-effort-helps">How Effort Helps</h3>
+<h4 id="reconsolidating-memory">Reconsolidating Memory</h4>
+<p>Effortful recall of learning, as happens in spaced practice, requires
+that you <code>reload</code> or reconstruct the components of the skill or material
+anew from long-term memory rather than mindlessly repeating them from
+short-term memory.</p>
+<p>The more effort that is required to recall a memory or to execute a
+skill, provided that the effort succeeds, the more the act of recalling
+or executing benefits the learning.</p>
+<p>Massed practice gives us the warm sensation of mastery because we&rsquo;re
+looping information through short-term memory without having to
+reconstruct the learning from long-term memory.</p>
+<h4 id="creating-mental-models">Creating Mental Models</h4>
+<h4 id="broadening-mastery">Broadening Mastery</h4>
+<p>Retrieval practice that you perform at different times and in different
+contexts and that interleaves different learning material has the
+benefit of linking new associations to the material.</p>
+<h4 id="fostering-conceptual-learning">Fostering Conceptual Learning</h4>
+<p>The difficulty produced by interleaving provides a second type of boost
+to learning. Interleaved practice of related but dissimilar geometric
+solids requires that you notice similarities and differences in order to
+select the correct formula for computing the volume.</p>
+<h4 id="improving-versatility">Improving Versatility</h4>
+<p>The retrieval difficulties posed by spacing, interleaving, and variation
+are overcome by invoking the same mental processes that will be needed
+later in applying the learning in everyday settings. By mimicking the
+challenges of practical experience, these learning strategies conform to
+the admonition to &ldquo;practice like you play, and you&rsquo;ll play like you
+practice,&rdquo; improving what scientists call transfer of learning, which is
+the ability to apply what you&rsquo;ve learned in new settings.</p>
+<h4 id="priming-the-mind-for-learning">Priming the Mind for Learning</h4>
+<p>When you&rsquo;re asked to struggle with solving a problem before being shown
+how to solve it, the subsequent solution is better learned and more
+surably remembered.</p>
+<h3 id="other-learning-strategies-that-incorporate-desirable-difficulties">Other Learning Strategies That Incorporate Desirable Difficulties</h3>
+<p>We usually think of interference as a detriment to learning, but certain
+kinds of interference can produce learning benefits, and the positive
+effects are sometimes surprising.</p>
+<p>When letters are omitted from words in a text, requiring the reader to
+supply them, reading is slowed, and retention improves. The added effort
+increases comprehension and learning. (Of course, learning will not
+improve if the difficulty completely obscures the meaning or cannot be
+overcome.)</p>
+<p>When you&rsquo;re asked to supply an answer or a solution to something that&rsquo;s
+new to you, the power of generation to aid learning is even more
+evident. One explanation for this effect is the idea that as you cast
+about for a solution, retrieving related knowledge from memory, you
+strengthen the route to a gap in your learning even before the answer is
+provided to fill it and, when you do fill it, connections are made to
+the related material that is fresh in your mind from the effort. It&rsquo;s
+better to solve a problem than to memorize a solution. It&rsquo;s better to
+attempt a solution and supply the incorrect answer than not to make the
+attempt.</p>
+<p>The act of taking a few minutes to review what has been learned from an
+experience (or in a recent class) and asking yourself questions is know
+as <code>reflection</code>. After a lecture or reading assignment, for example, you
+might ask yourself: What are the key ideas? What are some examples? How
+do these relate to what I already know?</p>
+<p>One form of reflection that is gaining currency in classroom settings is
+called &ldquo;write to learn.&rdquo; In essence, students reflect on a recent class
+topic in a brief writing assignment, where they may express the main
+ideas in their own words and relate them to other concepts covered in
+class, or perhaps outside class.</p>
+<h3 id="failure-and-the-myth-of-errorless-learning">Failure and the Myth of Errorless Learning</h3>
+<p>People who are taught that learning is a struggle that often involves
+making errors will go on to exhibit a greater propensity to tackle tough
+challenges and will tend to see mistakes not as failures but as lessons
+and turning points along the path to mastery.</p>
+<p>Studies underscore the importance of learners understanding that
+difficulty in learning new things is not only to be expected but can be
+beneficial. It&rsquo;s trusting that trying to solve a puzzle serves us better
+than being spoon-fed the solution, even if we fall short in our first
+attempts at an answer.</p>
+<h3 id="an-example-of-generative-learning">An Example of Generative Learning</h3>
+<h3 id="undesirable-difficulties">Undesirable Difficulties</h3>
+<p><code>Desirable difficulties</code> are desirable because they trigger encoding and
+retrieval processes that support learning, comprehension, and
+remembering. If, however, the learners does not have the background
+knowledge or skills to respond to them successfully, they become
+undesirable difficulties.</p>
+<h3 id="the-takeaway-2">The Takeaway</h3>
+<p>Learning is at least a three-step process: 1. Initial encoding of
+information is held in short-term working memory before being
+consolidated into a cohesive representation of knowledge in long-term
+memory. 2. Consolidation reorganizes and stabilizes memory traces, gives
+them meaning, and makes connections to past experiences and to other
+knowledge already stored in long-term memory. 3. Retrieval updates
+learning and enables you to apply it when you need it.</p>
+<p>Learning always builds on a store of prior knowledge. We interpret and
+remember events by building connections to what we already know.</p>
+<p>Long-term memory capacity is virtually limitless: the more you know, the
+more possible connections you have for adding new knowledge.</p>
+<p>Periodic retrieval of learning helps strengthen connections to the
+memory and the cues for recalling it, while also weakening routes to
+competing memories. Retrieval practice that&rsquo;s easy does little to
+strengthen learning; the more difficult the practice, the greater the
+benefit.</p>
+<p>When you recall learning from short-term memory, as in rapid-fire
+practice, little mental effort is required, and little long-term benefit
+accrues. But when you recall it after some time has elapsed and your
+grasp of it has become a little rusty, you have to make an effort to
+reconstruct it. This effortful retrieval both strengthens the memory but
+also makes the learning pliable again, leading to its reconsolidation.</p>
+<p>Reconsolidation helps update your memories with new information and
+connect them to more recent learning.</p>
+<p>Repeated effortful recall or practice helps integrate learning into
+mental models, in which a set of interrelated ideas or a sequence of
+motor skills are fused into a meaningful whole that can be adapted and
+applied in later settings. When practice conditions are varied or
+retrieval is interleaved with the practice of other material, we
+increase our abilities of discrimination and induction and the
+versatility with which we can apply the learning in new settings at a
+later date. Interleaving and variation build new connections, expanding
+and more firmly entrenching knowledge in memory and increasing the
+number of cues for retrieval.</p>
+<p>Trying to come up with an answer rather than having it presented to you,
+or trying to solve a problem before being shown the solution, leads to
+better learning and longer retention of the correct answer or solution,
+even when your attempted response is wrong, so long as corrective
+feedback is provided.</p>
+<h2 id="ch5-avoid-illusions-of-knowing">Ch5, Avoid Illusions of Knowing</h2>
+<p>At the root of our effectiveness is our ability to grasp the world
+around us and to take the measure of our own performance.</p>
+<h3 id="two-systems-of-knowing">Two Systems of Knowing</h3>
+<ol>
+<li>System 1: (or the automatic system) is unconscious, intuitive, and
+immediate.</li>
+<li>System 2 (the controlled system) is our slower process of conscious
+analysis and reasoning.</li>
+</ol>
+<h3 id="illusions-and-memory-distortions">Illusions and Memory Distortions</h3>
+<p>Accounts that sound familiar can create the feeling of knowing and be
+mistaken for true.</p>
+<p>Fluency illusions result from our tendency to mistake fluency with a
+text for mastery of its content. Students who study by rereading their
+texts can mistake their fluency with a text, gained from rereading, for
+possession of accessible knowledge of the subject and consequently
+overestimate how well they will do on a test.</p>
+<h3 id="mental-models">Mental Models</h3>
+<h3 id="unskilled-and-unaware-of-it">Unskilled and Unaware of It</h3>
+<p>Incompetent people overestimate their own competence and, failing to
+sense a mismatch between their performance and what is desirable, see no
+need to try to improve.</p>
+<h3 id="tools-and-habits-for-calibrating-your-judgment">Tools and Habits for Calibrating Your Judgment</h3>
+<p>Most important is to make frequent use of testing and retrieval practice
+to verify what you really do know versus what you think you know.</p>
+<h2 id="ch6-go-beyond-learning-styles">Ch6, Go Beyond Learning Styles</h2>
+<p>We acknowledge that everyone has learning preferences, but we are not
+persuaded that you learn better when the manner of instruction fits
+those preferences. Yet there are other kinds of differences in how
+people learn that do matter.</p>
+<h3 id="active-learning-from-the-get-go">Active Learning from the Get-Go</h3>
+<p>One difference that appears to matter a lot is how you see yourself and
+your abilities. Whether you think you can or you think you cannot,
+you&rsquo;re right. Each of us has a large basket of resources in the form of
+aptitudes, prior knowledge, intelligence, interests, and sense of
+personal empowerment that shape how we learn and how we overcome our
+shortcomings. Some of these differences matter a lot - for example, our
+ability to abstract underlying principles from new experiences and to
+convert new knowledge into mental structures. Other differences we may
+think count for a lot, for example having a verbal or visual learning
+style, actually don&rsquo;t.</p>
+<h3 id="successful-intelligence">Successful Intelligence</h3>
+<h3 id="dynamic-testing">Dynamic Testing</h3>
+<p>A test may assess a weakness, but rather than assuming that the weakness
+indicates a fixed inability, you interpret it as a lack of skill or
+knowledge that can be remedied. What do I need to learn in order to
+improve? Dynamic testing has three steps: 1. A test of some kind -
+perhaps an experience or a paper exam - shows me where I come up short
+in knowledge or a skill. 2. I dedicate myself to becoming more
+competent, using reflection, practice, spacing, and the other techniques
+of effective learning. 3. I test myself again, paying attention to what
+works better now but also, and especially, to where I still need more
+work.</p>
+<h3 id="structure-building">Structure Building</h3>
+<p>There do appear to be cognitive differences in how we learn, though not
+the ones recommended by advocates of learning styles. One of these
+differences is the idea mentioned earlier that psychologists call
+structure building: the act, as we encounter new material, of extracting
+the salient ideas and constructing a coherent mental framework out of
+them. These frameworks are sometimes called mental models or mental
+maps. High structure-builders learn new material better than low
+structure-builders. The theory of structure building bears some
+resemblance to a village built of Lego blocks. We know that when
+questions are embedded in texts to help focus readers on the main ideas,
+the learning performance of low structure-builders improves to a level
+commensurate with high structure-builders.</p>
+<h3 id="rule-versus-example-learning">Rule versus Example Learning</h3>
+<p>We know that high structure-builders and rule learners are more
+successful in transferring their learning to unfamiliar situations than
+are low structure-builders and example learners.</p>
+<h3 id="the-takeaway-3">The Takeaway</h3>
+<p><code>Be the one in charge</code> There&rsquo;s an old truism from sales school that says
+you can&rsquo;t shoot a deer from the lodge. The same goes for learning: you
+have to suit up, get out the door, and find what you&rsquo;re after. Mastery,
+especially of complex ideas, skills, and processes, is a quest. It is
+not a grade on a test, something bestowed by a coach, or a quality that
+simply seeps into your being with old age and gray hair.</p>
+<p><code>Embrace the notion of successful intelligence</code> Go Wide: don&rsquo;t roost in
+a pigeonhole of your preferred learning style but take command of your
+resources and tap all of your &ldquo;intelligences&rdquo; to master the knowledge or
+skill you want to possess. Describe what you want to know, do, or
+accomplish. Then list the competencies required, what you need to learn,
+and where you can find the knowledge or skill. Then go get it. Consider
+your expertise to be in a state of continuing development, practice
+dynamic testing as a learning strategy to discover your weaknesses, and
+focus on improving yourself in those areas. It&rsquo;s smart to build on your
+strengths, but you will become ever more competent and versatile if you
+also use testing and trial and error to continue to improve in the areas
+where your knowldege or performance are not pulling their weight.</p>
+<p><strong>Adopt active learning strategies</strong> like retrieval practice, spacing, and
+interleaving. Be aggressive.</p>
+<p>Don&rsquo;t rely on what feels best: like a good pilot checking his
+instruments, use quizzing, peer review, and the other tools described
+<strong>AVOID ILLUSIONS OF KNOWING</strong> to make sure your judgment of what you know
+and can do is accurate, and that your strategies are moving you toward
+your goals. Don&rsquo;t assume that you&rsquo;re doing something wrong if the
+learning feels hard. Remember that difficulties you can overcome with
+grater cognitive effort will more than repay you in the depth and
+durability of your learning.</p>
+<p><code>Distill the underlying principles; build the structure</code> If you&rsquo;re an
+example learner, study examples two at a time or more, rather than one
+by one, asking yourself in what ways they are alike and different. Are
+the differences such that they require different solutions, or are the
+similarities such that they respond to a common solution?</p>
+<p>Break your idea or desired competency down into its component parts. If
+you think you are a low structure-builder or an example learner trying
+to learn new material, pause periodically and ask what the central ideas
+are, what the rules are. Describe each idea and recall the related
+points. Which are the big ideas, and which are supporting concepts or
+nuances? If you were to test yourself on the main ideas, how would you
+describe them?</p>
+<p>Structure is all around us and available to us through the poet&rsquo;s medium
+of metaphor. A tree, with its roots, trunk, and branches.</p>
+<p>By abstracting the underlying rules and piecing them into a structure,
+you go for more than knowledge. You go for know-how. And that kind of
+mastery will put you ahead.</p>
+<h2 id="ch7-increase-your-abilities">Ch7, Increase Your Abilities</h2>
+<h3 id="neuroplasticity">Neuroplasticity</h3>
+<h3 id="is-iq-mutable">Is IQ Mutable?</h3>
+<p>Gains in IQ were found in several areas of cognitive training. ### Brain
+Training Since it&rsquo;s unlikely I&rsquo;ll be raising my IQ anytime soon, are
+there strategies or behaviors that can serve as *cognitive
+*&ldquo;multipliers&rdquo; to amp up the performance of the intelligence I&rsquo;ve
+already got? Yes. Here are three: embracing a <strong>growth mindset,
+practicing like an expert, and constructing memory cues.</strong></p>
+<h3 id="growth-mindset">Growth Mindset</h3>
+<p>Attitude counts for a lot. More than IQ, it&rsquo;s discipline, grit, and a
+growth mindset that imbue a person with the sense of possibility and the
+creativity and persistence needed for higher learning and success.</p>
+<h3 id="deliberate-practice">Deliberate Practice</h3>
+<p>Deliberate practice is goal directed, often solitary, and consists of
+repeated striving to reach beyond your current level of performance.
+Whatever the field, expert performance is thought to be garnered through
+the slow acquisition of a larger number of increasingly complex
+patterns, patterns that are used to store knowledge about which actions
+to take in a vast vocabulary of different situations.</p>
+<p>The central idea here is that expert performance is a product of the
+<code>quantity</code> and the <code>quality</code> of practice, not of genetic predisposition,
+and that becoming expert is not beyond the reach of normally gifted
+people who have the motivation, time, and discipline to pursue it.</p>
+<h3 id="memory-cues">Memory cues</h3>
+<p>Image cue memories. With continued retrieval, complex material can
+become second nature to a person and the mnemonic cues are no longer
+needed: you consolidate concepts like Newton&rsquo;s 3 laws of motion into
+mental models that you use as a kind of short-hand. Through repeated
+use, your brain encodes and &ldquo;chunks&rdquo; sequences of motor and cognitive
+actions, and your ability to recall and apply them becomes as automatic
+as habit.</p>
+<h3 id="the-takeaway-4">The Takeaway</h3>
+<p><strong>Effortful learning changes the brain,</strong> building new connections and
+capability. This single fact - that our intellectual abilities are not
+fixed from birth but are, to a considerable degree, outs to shape - is a
+resounding answer to the nagging voice that too often asks us &ldquo;Why
+bother?&rdquo; We make the effort because the effort itself extends the
+boundaries of our abilities. What we do shapes who we become and what
+we&rsquo;re capable of doing. The more we do, the more we can do. To embrace
+this principle and reap its benefits is to be sustained through life by
+a <strong>growth mindset.</strong></p>
+<p>And it comes down to the simple fact that the path to complex master or
+expert performance does not necessarily start from exceptional genes,
+but it most certainly entails <strong>self-discipline, grit, and persistence;</strong>
+with these qualities in healthy measure, if you want to become an
+expert, you probably can. And whatever you are striving to master,
+whether it&rsquo;s a poem you wrote for a friend&rsquo;s birthday, the concept of
+classical conditioning in psychology, *conscious mnemonic devices *can
+help to organize and cue the learning for ready retrieval until
+sustained, deliberate practice and repeated use form the deeper encoding
+and subconscious mastery that characterize expert performance.</p>
+<h2 id="ch8-make-it-stick">Ch8, Make It Stick</h2>
+<h3 id="learning-tips-for-students">Learning Tips for Students</h3>
+<p>Embrace the fact that significant learning is often, or even usually,
+somewhat difficult. You will experience setbacks. These are signs of
+effort, not of failure. Setbacks come with striving, and striving builds
+expertise. Effortful learning changes your brain, making new
+connections, building mental models. increasing your capability. Your
+intellectual abilities lie to a large degree within your own control.
+Knowing that this is so makes the difficulties worth tackling. Following
+are three keystone study strategies. Make a habit of them and structure
+your time so as to pursue them with regularity. #### Practice Retrieving
+New Learning from Memory &ldquo;Retrieval practice&rdquo; means self-quizzing.
+Retrieving knowledge and skill from memory should become your primary
+study strategy in place of rereading.</p>
+<p><strong>How to use retrieval practice as a study strategy:</strong> When you read a
+text or study lecture notes, pause periodically to ask yourself
+questions like these, without looking in the text: What are the key
+ideas? What terms or ideas are new to me? How would I define them? How
+do the ideas relate to what I already know?</p>
+<p>Many textbooks have study questions at the ends of the chapters, and
+these are good fodder for self-quizzing. Generating questions for
+yourself and writing down the answers is also a good way to study.</p>
+<p>Set aside a little time every week throughout the semester to quiz
+yourself on the material in a course, both the current week&rsquo;s work and
+material covered in prior weeks. When you quiz yourself, check your
+answers to make sure that your judgments of what you know and don&rsquo;t know
+are accurate.</p>
+<p>Use quizzing to identify areas of weak mastery, and focus your studying
+to make them strong.</p>
+<p>The harder ti is for you to recall new learning from memory, the greater
+the benefit of doing so. Making errors will not set you back, so long as
+you check your answers and correct your mistakes.</p>
+<p><strong>What your intuition tells you to do:</strong> Most students focus on
+underlining and highlighting text and lecture notes and slides. They
+dedicate their time to rereading these, becoming fluent in the text and
+terminology, because this feels like learning. <strong>Why retrieval practice
+is better:</strong> After one or two reviews of a text, self-quizzing is far
+more potent for learning than additional rereading. Why might this be
+so? This is explained more fully in Chapter 2, but here are some of the
+high points. The familiarity with a text that is gained from rereading
+creates illusions of knowing, but these are not reliable indicators of
+mastery of the material. Fluency with a text has two strikes against it:
+it is a misleading indicator of what you have learned, and it crates the
+false impresion that you will remember the material. By contrast,
+quizzing yourself on the main ideas and the meanings behind the terms
+helps you to focus on the central precepts rather than on peripheral
+material or on a professor&rsquo;s turn of phrase.Quizzing provide a reliable
+measure of what you&rsquo;ve learned and what you haven&rsquo;t yet mastered.
+Moreover, quizzing arrests forgetting. Forgetting is human nature, but
+practice at recalling new learning secures it in memory and helps you
+recall it in the future. Periodically practicing new knowledge and
+skills through self-quizzing strengthens your learning of it and your
+ability to connect it to prior knowledge. A habit of regular retrieval
+practice throughout the duration of a course puts an end to cramming and
+all-nighters. You will need little studying at exam time. Reviewing the
+material the night before is much easier than learning it. <strong>How it
+feels:</strong> Compared to rereading, self-quizzing can feel awkward and
+frustrating, especially when the new learning is hard to recall. It does
+not feel as productive as rereading your class notes and highlighted
+passages of text feels. But what you don&rsquo;t sense when you&rsquo;re struggling
+to retrieve new learning is the fact that every time you work hard to
+recall a memory, you actually strengthen it. If you restudy something
+after failing to recall it, you actually learn it better than if you had
+not tried to recall it. The effort of retrieving knowledge or skills
+strengthens its staying power and your ability to recall it in the
+future.</p>
+<h4 id="space-out-your-retrieval-practice">Space Out Your Retrieval Practice</h4>
+<p><strong>What does this mean:</strong> Spaced practice means studying information more
+than once but leaving considerable time between practice sessions. <strong>How
+to use spaced practice as a study strategy:</strong> Establish a schedule of
+self-quizzing that allows time to elapse between study sessions. How
+much time? It depends on the material. If you are learning a set of
+names and faces, you will need to review them within a few minutes of
+your first encounter, because these associations are forgotten quickly.
+New material in a text may need to be revisited within a day or so of
+your first encounter with it. Then, perhaps not again for several days
+or a week. When you are feeling more sure of your mastery of certain
+material, quiz yourself on it once a month. Over the course of a
+semester, as you quiz yourself on new material, also reach back to
+retrieve prior material and ask yourself how that knowledge relates to
+what you have subsequently learned. Anything you want to remember must
+be periodically recalled from memory.</p>
+<p>Another way of spacing retrieval practice is to interleave the study of
+two or more topics, so that alternating between them requires that you
+continually refresh your mind on each topic as you return to it.</p>
+<p><strong>What your intuition tells you to do:</strong> Intuition persuades us to
+dedicate stretches of time to single-minded, repetitive practice of
+something we want to master, the massed &ldquo;practice-practice-practice&rdquo;
+regime we have been led to believe is essential for building mastery of
+a skill or learning new knowledge. These intuitions are compelling and
+hard to distrust for two reasons. First, as we practice a thing over and
+over we often see our performance improving, which serves as a powerful
+reinforcement of this strategy. Second, we fail to see that the gains
+made during single-minded repetitive practice come from short-term
+memory and quickly fade. Our failure to perceive how quickly the gains
+fade leaves us with the impression that massed practice is productive.</p>
+<p><strong>Why spaced practice is better</strong>: It&rsquo;s a common but mistaken belief that
+you can burn something into memory through sheer repetition. Lots of
+practice works, but only if it&rsquo;s spaced.</p>
+<p>If you use self-quizzing as your primary study strategy and space out
+your study sessions so that a little forgetting has happened since your
+last practice, you will have to work harder to reconstruct what you
+already studied. If effect, you&rsquo;re &ldquo;re-loading&rdquo; it from long-term
+memory. This effort to reconstruct the learning makes the important
+ideas more salient and memorable and connects them more securely to
+other knowledge and to more recent learning.</p>
+<p><strong>How it feels:</strong> Massed practice feels more productive than spaced
+practice, but it is not. Spaced practice feels more difficult, because
+you have gotten a little rusty and the material is harder to recall. It
+feels like you&rsquo;re not really getting on top of it,</p>
+<h4 id="interleave-the-study-of-different-problem-types">Interleave the Study of Different Problem Types</h4>
+<p><strong>What does this mean?</strong> If you&rsquo;re trying to learn mathematical formulas,
+study more than one type at a time, so that you are alternating between
+different problems that call for different solutions. If you are
+studying biology specimens, Dutch painters, or the principles of
+macroeconomics, mix up the examples. <strong>How to use interleaved practice as
+a study strategy:</strong> Many textbooks are structured in study blocks: THey
+present the solution to a particular kind of problem, say, computing the
+volume of a spheroid, and supply many examples to solve before moving to
+another kind of problem (computing the volume of a cone). Blocked
+practice is not as effective as interleaved practice, so here&rsquo;s what to
+do. When you structure your study regimen, once you reach the point
+where you understand a new problem type and its solution but your grasp
+of it is still rudimentary, scatter this problem type throughout your
+practice sequence so that you are alternately quizzing yourself on
+various problem types and retrieving the appropriate solutions for each.
+If you find yourself falling into single-minded, repetitive practice of
+a particular topic or skill, change it up: mix in the practice of other
+subjects, other skills, constantly challenging your ability to recognize
+the problem type and select the right solution. <strong>What your intuition
+tells you to do:</strong> Most learners focus on many examples of one problem or
+specimen type at a time, wanting to master the type and &ldquo;get it down
+cold&rdquo; before moving on to study another type. <strong>Why interleaved practice
+is better:</strong> Mixing up problem types improves your ability to
+discriminate between types, identify the unifying characteristics within
+a type, and improves your success in a later test where you must discern
+the kind of problem you&rsquo;re trying to solve in order to apply the correct
+solution.</p>
+<h4 id="other-effective-study-strategies">Other Effective Study Strategies</h4>
+<p>ELABORATION It improves your mastery of new material and multiplies the
+mental cues available to you for later recall and application of it.
+*What is it?*Elaboration is the process of finding additional layers of
+meaning in new material.Examples include relating the material to what
+you already know, explaining it to somebody else in your own words, or
+explaining how it relates to your life outside of class. A powerful form
+of elaboration is to discover a metaphor or visual image for the new
+material.</p>
+<p>GENERATION It has the effect of making the mind more receptive to new
+learning. <strong>What is it?</strong> Generation is an attempt to answer a question or
+solve a problem before being shown the answer or the solution For
+instance, on a small level, the act of filling in a missing word in a
+text results in better learning and memory of the text than simply
+reading a complete text. You can practice generation when reading new
+class material by trying to explain beforehand the key ideas you expect
+to find in the material and how you expect they will relate to your
+prior knowledge. If you&rsquo;re in a science or math course learning
+different types of solutions for different types of problems, try to
+solve the problems before you get to class.</p>
+<p>REFLECTION It is a combination of retrieval practice and elaboration
+that adds layers to learning and strengthens skills. <strong>What is it?</strong>
+Reflection is the act of taking a few minutes to review what has been
+learned in a recent class or experience and asking yourself question.
+What went well? What could have gone better? What other knowledge or
+experiences does it remind you of? What might you need to learn for
+better mastery, or what strategies might you use the next time to get
+better results?</p>
+<p>CALIBRATION It is the act of aligning your judgments of what you know
+and don&rsquo;t know with objective feedback so as to avoid being carried off
+by the illusions of mastery that catch many learners by surprise at test
+time. <strong>What is it?</strong> Everyone is subject to a host of cognitive
+illusions. Mistaking fluency with a text for mastery of the underlying
+content is just one example. Calibration is simply the act of using an
+objective instrument to clear away illusions and adjust your judgment to
+better reflect reality. The aim is to be sure that your sense of what
+you know and can do is accurate.</p>
+<p>MNEMONIC DEVICES They help you to retrieve what you have learned and to
+hold arbitrary information in memory. <strong>What are they?</strong> &ldquo;Mnemonic&rdquo; is
+from the Greek word for memory, and mnemonic devices are like mental
+file cabinets. They give you handy ways to store information and find it
+again when you need it.</p>
+
+                        </div>
+                        <div class="bl-section">
+                                <h4>Links to this note</h4>
+                                <div class="backlinks">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<script src="https://bigaidream.github.io/mind-garden/js/URI.js" type="text/javascript"></script>
+
+<script src="https://bigaidream.github.io/mind-garden/js/page.js" type="text/javascript"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<footer>  
+  <p>Icon by Freepik. Built with ♥ with Org-mode and Hugo.</p>
+</footer>
+
+</body>
+</html>

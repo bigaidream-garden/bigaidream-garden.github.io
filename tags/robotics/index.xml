@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robotics on Jethro&#39;s Braindump</title>
+    <link>https://bigaidream.github.io/mind-garden/tags/robotics/</link>
+    <description>Recent content in robotics on Jethro&#39;s Braindump</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jul 2020 16:15:27 +0800</lastBuildDate><atom:link href="https://bigaidream.github.io/mind-garden/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics</title>
+      <link>https://bigaidream.github.io/mind-garden/posts/robotics/</link>
+      <pubDate>Sun, 19 Jul 2020 16:15:27 +0800</pubDate>
+      
+      <guid>https://bigaidream.github.io/mind-garden/posts/robotics/</guid>
+      <description>Theory  Uncertainty in Robotics Robotics Probabilistic Generative Laws Robot Localization State Estimation Robot Motion Range Finder Model Occupancy Grid Mapping Simultaneous Localization and Mapping (SLAM)  Tools  Robot Operating System (ROS) Google Cartographer  Links  Awesome Robotics   </description>
+    </item>
+    
+    <item>
+      <title>Robotics Probabilistic Generative Laws</title>
+      <link>https://bigaidream.github.io/mind-garden/posts/robotics_probabilistic_generative_laws/</link>
+      <pubDate>Fri, 17 Jul 2020 00:56:14 +0800</pubDate>
+      
+      <guid>https://bigaidream.github.io/mind-garden/posts/robotics_probabilistic_generative_laws/</guid>
+      <description>Notation  \(x_t\) world state at time \(t\) \(z_t\) measurement data at time \(t\) (e.g. camera images) \(u_t\) control data (change of state in the environment) at time \(t\)  State Evolution \begin{equation} p(x_t | x_{0:t-1} z_{1:t-1}, u_{1:t}) \end{equation}
+State Transition Probability \begin{equation} p(x_t | x_{0:t-1} z_{1:t-1}, u_{1:t}) = p ( x_t | x_{t-1}, u_t) \end{equation}
+The world state at the previous time-step is a sufficient summary of all that happened in previous time-steps.</description>
+    </item>
+    
+  </channel>
+</rss>
