@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><title>note taking</title>
+<html><title>Note Taking</title>
 
 
 <meta charset="utf-8">
@@ -24,18 +24,41 @@
         <div class="grid">
                 <div class="page" data-uuid="2eadd548e6fbee0ee1489303f3a66e25" data-level="1">
                         <div class="content">
-                                <h1>note taking</h1>
+                                <h1>Note Taking</h1>
                                 <dl>
 <dt>keywords</dt>
 <dd><a href="/posts/20201012233945-how_to_study/">how to study</a></dd>
 </dl>
+<p>tags
+:</p>
+<p>create time
+:</p>
+<dl>
+<dt>update time</dt>
+<dd><span class="timestamp-wrapper"><span class="timestamp">&lt;2020-10-30 Fri&gt;</span></span></dd>
+</dl>
+<h2 id="general">General</h2>
 <p>Taking notes while reading (either textbooks or papers) can force me to study actively, and thus understand materials more deeply and maintain longer.
 However, I used to make notes as self-contained as possible, such that I don&rsquo;t have to refer to the original materials.
 I often see this form of notes in Github.
 This way of taking notes would consume lots of time.
 As discussed by <a href="https://youtu.be/AHCMay7TKAQ?t=186">Scott Young</a>, we should mix the notes and original materials.
 This can be achieved with Emacs tools like <a href="https://github.com/rudolfochrist/interleave">Interleave</a>.</p>
-
+<h2 id="math-notes">Math Notes</h2>
+<p>I will start reading math books/papers by de-coding the proof with <a href="https://lamport.azurewebsites.net/pubs/proof.pdf">Structured Proof</a> . It seems that the original pf2 tool is bit outdated. I use the latex template given in <a href="https://tex.stackexchange.com/questions/443326/lamport-pf2-sty-and-hide-show-parts-of-nested-enumerate-environment">StackExchange on enumerate for proof</a>.</p>
+<pre><code class="language-nil" data-lang="nil">  \begin{enumerate}
+    \item \label{item:test-lamport2:1b}{Text of step 1.}
+    \begin{enumerate}
+      \item \label{item:solution-enumitem:1} Text of substep 1
+       \begin{enumerate}
+         \item[\textsc{PROOF}] Paragraph proof using results in
+         \ref{item:solution-enumitem:1}. $\blacksquare$
+       \end{enumerate}
+      \item \label{label-2.1}{Text of substep 2}
+     \end{enumerate}
+     \item \label{label-2.2}{Text of step 2}
+   \end{enumerate}
+</code></pre>
                         </div>
                         <div class="bl-section">
                                 <h4>Links to this note</h4>
