@@ -46,19 +46,23 @@ As discussed by <a href="https://youtu.be/AHCMay7TKAQ?t=186">Scott Young</a>, we
 This can be achieved with Emacs tools like <a href="https://github.com/rudolfochrist/interleave">Interleave</a>.</p>
 <h2 id="math-notes">Math Notes</h2>
 <p>I will start reading math books/papers by de-coding the proof with <a href="https://lamport.azurewebsites.net/pubs/proof.pdf">Structured Proof</a> . It seems that the original pf2 tool is bit outdated. I use the latex template given in <a href="https://tex.stackexchange.com/questions/443326/lamport-pf2-sty-and-hide-show-parts-of-nested-enumerate-environment">StackExchange on enumerate for proof</a>.</p>
-<pre><code class="language-nil" data-lang="nil">  \begin{enumerate}
-    \item \label{item:test-lamport2:1b}{Text of step 1.}
-    \begin{enumerate}
-      \item \label{item:solution-enumitem:1} Text of substep 1
-       \begin{enumerate}
-         \item[\textsc{PROOF}] Paragraph proof using results in
-         \ref{item:solution-enumitem:1}. $\blacksquare$
-       \end{enumerate}
-      \item \label{label-2.1}{Text of substep 2}
-     \end{enumerate}
-     \item \label{label-2.2}{Text of step 2}
-   \end{enumerate}
-</code></pre>
+<div class="latex">
+  <div></div>
+<p>\begin{enumerate}
+\item \label{item:test-lamport2:1b}{Text of step 1.}
+\begin{enumerate}
+\item \label{item:solution-enumitem:1} Text of substep 1
+\begin{enumerate}
+\item[\textsc{PROOF}] Paragraph proof using results in
+\ref{item:solution-enumitem:1}. $\blacksquare$
+\end{enumerate}</p>
+<p>\item \label{label-2.1}{Text of substep 2}
+\end{enumerate}
+\item \label{label-2.2}{Text of step 2}
+\end{enumerate}</p>
+</div>
+<p><span class="timestamp-wrapper"><span class="timestamp">[2021-02-25 Thu] </span></span> update: this structured proof is a bit too complicated, especially when editing it. Now I&rsquo;m jusing using align and subequations.</p>
+
                         </div>
                         <div class="bl-section">
                                 <h4>Links to this note</h4>
