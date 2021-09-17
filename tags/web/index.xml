@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Jie&#39;s Mind Garden</title>
+    <link>https://bigaidream-garden.github.io/tags/web/</link>
+    <description>Recent content in web on Jie&#39;s Mind Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://bigaidream-garden.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS</title>
+      <link>https://bigaidream-garden.github.io/posts/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/css/</guid>
+      <description> tags Web Development  Adding dark mode : How To Add CSS Dark Mode To A Website - Kev Quirk    Flexbox  An introduction to CSS Containment - Rego&amp;rsquo;s Everyday Life  CSS Frameworks  TACHYONS - Css Toolkit Tailwind CSS - A Utility-First CSS Framework for Rapid UI Development  Tailwind.css Inbox UI Demo    Advanced  An introduction to CSS Containment - Rego&amp;rsquo;s Everyday Life  </description>
+    </item>
+    
+  </channel>
+</rss>

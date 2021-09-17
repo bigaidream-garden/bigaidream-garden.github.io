@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bayes on Jie&#39;s Mind Garden</title>
+    <link>https://bigaidream-garden.github.io/tags/bayes/</link>
+    <description>Recent content in bayes on Jie&#39;s Mind Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://bigaidream-garden.github.io/tags/bayes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bayesian Deep Learning</title>
+      <link>https://bigaidream-garden.github.io/posts/bayesian_deep_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/bayesian_deep_learning/</guid>
+      <description>The Case For Bayesian Learning (Wilson, n.d.)  Vague parameter prior + structured model (e.g. CNN) = structured function prior! The success of ensembles encourages Bayesians, since ensembles approximate the Bayesian Model Average  Bayesian Perspective on Generalization (Smith and Le, n.d.) Bayesian model comparisons were first made on Neural Networks by Mackay. Consider a classification model \(M\) with a single parameter \(w\), training inputs \(x\) and training labels \(y\). We can infer a posterior probability distribution over the parameter by applying Bayes theorem:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning on Jie&#39;s Mind Garden</title>
+    <link>https://bigaidream-garden.github.io/tags/machine-learning/</link>
+    <description>Recent content in machine-learning on Jie&#39;s Mind Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://bigaidream-garden.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bayesian Inference</title>
+      <link>https://bigaidream-garden.github.io/posts/bayesian_inference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/bayesian_inference/</guid>
+      <description>Setup We have some unknown quantity \(\theta\) (possibly a vector) that we wish to learn about, and we observe some data \(y\). In Bayesian statistics, we specify:
+ A sampling model, often expressed as a probability density function \(p(y|\theta)\), which we call the likelihood function A prior distribution \(p(\theta)\), which expresses any prior knowledge or beliefs that we have about their values before observing the data  Scalable Bayesian Inference There is an increasingly immense literature focused on big data.</description>
+    </item>
+    
+    <item>
+      <title>Hopfield Network</title>
+      <link>https://bigaidream-garden.github.io/posts/hopfield_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/hopfield_network/</guid>
+      <description>A Hopfield network is a fully connected Ising model with a symmetric weight matrix, \(\mathbf{W} = \mathbf{W^T}\). These weights plus the bias term \(\mathbf{b}\), can be learned from training data, using (approximate) maximum likelihood.
+Hopfield networks can be used as an associative memory, or content addressable memory.
+Suppose we train on a set of fully observed bit vectors, corresponding to patterns we want to memorize. At test time, we present a partial pattern to the network.</description>
+    </item>
+    
+    <item>
+      <title>Ising Models</title>
+      <link>https://bigaidream-garden.github.io/posts/ising_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/ising_models/</guid>
+      <description>An Ising model is an array of spins (atoms that can take states \(\pm 1\)) that are magnetically coupled to each other. If one spin is, say $+1, is energetically favourable for its immediate neighbours to be in the same state.
+Let the state \(\mathbb{x}\) of an Ising model with \(N\) spins be a vector in which each component \(x_n\) takes values \(+1\) and \(-1\). If two spins \(m\) and \(n\) are neighbours, we say \((m, n) \in \mathcal{N}\).</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://bigaidream-garden.github.io/posts/reinforcement_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/reinforcement_learning/</guid>
+      <description>tags Machine Learning  Reinforcement Learning is the field of learning and decision-making under uncertainty. An agent acts with a learnable behaviour policy in an environment with initially unknown dynamics and reward. The agent observes the environment&amp;rsquo;s state (sometimes partially: POMDPs) and chooses an action.
+ behaviour \(\Pi(a | s)\) action \(a_t \in A\) reward \(r_{t+1} \in R\) state \(s_{t+1} \in S\) dynamics \(T(s_{t+1} | s_t, a_t)\) reward \(R(r_{t+1} | s_t, a_t)\)  The dynamics and rewards here reflect the markovian assumption.</description>
+    </item>
+    
+    <item>
+      <title>The Bias-Complexity Tradeoff</title>
+      <link>https://bigaidream-garden.github.io/posts/bias_complexity_tradeoff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/bias_complexity_tradeoff/</guid>
+      <description>Training data can mislead the learner, and result in overfitting. To overcome this problem, we can restrict the search space to some hypothesis space \(\mathcal{H}\). This can be seen as introducing prior knowledge to the learning task. Is such prior knowledge necessary?
+The No-Free-Lunch Theorem The No-Free-Lunch theorem states that for binary classification tasks, for every learner there exists a distribution on which it fails. We say that the learner fails if, upon receiving i.</description>
+    </item>
+    
+  </channel>
+</rss>

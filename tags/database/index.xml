@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on Jie&#39;s Mind Garden</title>
+    <link>https://bigaidream-garden.github.io/tags/database/</link>
+    <description>Recent content in database on Jie&#39;s Mind Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://bigaidream-garden.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Databases</title>
+      <link>https://bigaidream-garden.github.io/posts/databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/databases/</guid>
+      <description>How JOINs work  JOIN are essentially nested loops. Multiple techniques are used to improve the performance of JOIN. When datasets are small or no appropriate index is being maintained, query planners will likely decide to use memory to make queries run faster. The query executor can build hash tables (or sort records in memory, or &amp;hellip;) and use HashJoin or MergeJoin to more efficiently join the two operands according to the join-condition in the query.</description>
+    </item>
+    
+  </channel>
+</rss>

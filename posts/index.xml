@@ -8,109 +8,106 @@
     <language>en-us</language><atom:link href="https://bigaidream-garden.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>de-mystifying good research and good papers</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012220327-de_mystifying_good_research_and_good_papers/</link>
+      <link>https://bigaidream-garden.github.io/posts/de_mystifying_good_research_and_good_papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012220327-de_mystifying_good_research_and_good_papers/</guid>
+      <guid>https://bigaidream-garden.github.io/posts/de_mystifying_good_research_and_good_papers/</guid>
       <description>By Fei-Fei Li, Professor at Stanford, 2009-03-01
  Please remember this: 1000+ computer vision papers get published every year! Only 5-10 are worth reading and remembering!Since many of you are writing your papers now, I thought that I’d share these thoughts with you. I probably have said all these at various points during our group and individual meetings. But as I continue my AC reviews these days (that’s 70 papers and 200+ reviews — between me and my AC partner), these following points just keep coming up.</description>
     </item>
     
     <item>
-      <title>how to do research</title>
-      <link>https://bigaidream-garden.github.io/posts/20200913162701-how_to_do_research/</link>
+      <title>do not brainstorm</title>
+      <link>https://bigaidream-garden.github.io/posts/do_not_brainstorm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20200913162701-how_to_do_research/</guid>
-      <description> de-mystifying good research and good papers  </description>
+      <guid>https://bigaidream-garden.github.io/posts/do_not_brainstorm/</guid>
+      <description> keywords how to do research  https://www.lesswrong.com/posts/T382CLwAjsy3fmecf/how-to-take-smart-notes-ahrens-2017
+ Don&amp;rsquo;t brainstorm, since brainstormed ideas are what&amp;rsquo;s easily available, instead of innovative or actually relevant. Especially don&amp;rsquo;t group-brainstorm, which tend to become even less innovative due to groupthink effects (Mullen, Brian, Craig Johnson, and Eduardo Salas, 1991, Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration).
+ </description>
     </item>
     
     <item>
-      <title>how to study</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012233945-how_to_study/</link>
+      <title>How to study</title>
+      <link>https://bigaidream-garden.github.io/posts/how_to_study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012233945-how_to_study/</guid>
+      <guid>https://bigaidream-garden.github.io/posts/how_to_study/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>latex</title>
-      <link>https://bigaidream-garden.github.io/posts/20201029154202-latex/</link>
+      <title>meta learning</title>
+      <link>https://bigaidream-garden.github.io/posts/meta_learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201029154202-latex/</guid>
-      <description>Math  Structured proof with enumerate: https://tex.stackexchange.com/questions/443326/lamport-pf2-sty-and-hide-show-parts-of-nested-enumerate-environment How I&amp;rsquo;m able to take notes in mathematics lectures using LaTeX and Vim, https://castel.dev/post/lecture-notes-1/ How I draw figures for my mathematical lecture notes using Inkscape, https://castel.dev/post/lecture-notes-2/#  Presentation  minimal, https://github.com/anishathalye/auriga  </description>
+      <guid>https://bigaidream-garden.github.io/posts/meta_learning/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>make it stick (summary)</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012234232-make_it_stick_summary/</link>
+      <title>MOC: how to do research</title>
+      <link>https://bigaidream-garden.github.io/posts/how_to_do_research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012234232-make_it_stick_summary/</guid>
-      <description>Written in 2014
-   This is a digest of the book Make it stick. Highly recommend it. I&amp;rsquo;m assuming that uploading the digest alone should be alright. If I were wrong, please let me know https://bigaidream.github.io/#contact as soon as possible, and I will delete it immediately.
-  Keywords how to study  Ch1, Make It Stick, the Science of Successful Learning (Digest) Learning is Misunderstood Claims We Make in This Book - Learning is deeper and more durable when it&amp;rsquo;s effortful.</description>
+      <guid>https://bigaidream-garden.github.io/posts/how_to_do_research/</guid>
+      <description>General  de-mystifying good research and good papers  Management  Research Software Engineering with Python, https://merely-useful.github.io/py-rse/index.html  </description>
     </item>
     
     <item>
-      <title>Mini Habits</title>
-      <link>https://bigaidream-garden.github.io/posts/20201110004906-mini_habits/</link>
+      <title>MOC: how to study</title>
+      <link>https://bigaidream-garden.github.io/posts/moc_how_to_study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201110004906-mini_habits/</guid>
-      <description>tags :
- keywords how to study create time &amp;lt;2020-11-10 Tue&amp;gt; update time &amp;lt;2020-11-10 Tue&amp;gt;  From the book &amp;ldquo;Master Vim Quickly&amp;rdquo;
-When you commit to something, the best way to reach your goal is to create a habit. In this case, your goal would be mastering Vim quickly, and the habit you need to adopt is to regularly learn. The biggest barrier to forming new habits is usually the fact that it takes discipline to keep doing something you don’t really feel like doing.</description>
+      <guid>https://bigaidream-garden.github.io/posts/moc_how_to_study/</guid>
+      <description>General  https://www.youtube.com/watch?v=Dezbvv2NIlQ, How I Trained Myself to Study Long Hours (even when I don&amp;rsquo;t want to) https://youtu.be/DbxPgd9DKEY, 3 habits to improve mental clarity: key is start from relatively easy tasks in the morning; writing things down; medidate  Math  Teaching myself an upper level pure math course, https://www.youtube.com/watch?v=eGDtW3BZyyE What I Learned Teaching Myself an Entire College Course From a Textbook, https://www.youtube.com/watch?v=Ev3jF4vjeGw How I Taught Myself an Entire College Level Math Textbook, https://www.</description>
     </item>
     
     <item>
-      <title>Note Taking</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012234737-note_taking/</link>
+      <title>MOC: RL</title>
+      <link>https://bigaidream-garden.github.io/posts/rl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012234737-note_taking/</guid>
-      <description>keywords how to study  tags :
+      <guid>https://bigaidream-garden.github.io/posts/rl/</guid>
+      <description>RL Code Model based RL  Facebook, MBRL-Lib https://github.com/facebookresearch/mbrl-lib  Debug RL Articles  Debugging RL, Without the Agonizing Pain, https://andyljones.com/posts/rl-debugging.html DeepRLHacks, https://github.com/williamFalcon/DeepRLHacks  </description>
+    </item>
+    
+    <item>
+      <title>note taking</title>
+      <link>https://bigaidream-garden.github.io/posts/note_taking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bigaidream-garden.github.io/posts/note_taking/</guid>
+      <description>keywords How to study  tags :
 create time :
  update time &amp;lt;2020-10-30 Fri&amp;gt;  General Taking notes while reading (either textbooks or papers) can force me to study actively, and thus understand materials more deeply and maintain longer. However, I used to make notes as self-contained as possible, such that I don&amp;rsquo;t have to refer to the original materials. I often see this form of notes in Github.</description>
     </item>
     
     <item>
-      <title>public-life-cn</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012223906-public_life_cn/</link>
+      <title>public life cn</title>
+      <link>https://bigaidream-garden.github.io/posts/public_life_cn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012223906-public_life_cn/</guid>
-      <description>2020  你头顶有个感叹号  Ealier  龙破斩 希波克拉底誓言 回到过去  </description>
+      <guid>https://bigaidream-garden.github.io/posts/public_life_cn/</guid>
+      <description>2020  你头顶有个感叹号  Ealier -龙破斩
+ 希波克拉底誓言 回到过去  </description>
     </item>
     
     <item>
-      <title>study tips from others</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012234456-study_tips_from_others/</link>
+      <title>vim</title>
+      <link>https://bigaidream-garden.github.io/posts/vim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012234456-study_tips_from_others/</guid>
-      <description>keywords how to study  General  https://www.youtube.com/watch?v=Dezbvv2NIlQ, How I Trained Myself to Study Long Hours (even when I don&amp;rsquo;t want to) https://youtu.be/DbxPgd9DKEY, 3 habits to improve mental clarity: key is start from relatively easy tasks in the morning; writing things down; medidate  Math  Teaching myself an upper level pure math course, https://www.youtube.com/watch?v=eGDtW3BZyyE What I Learned Teaching Myself an Entire College Course From a Textbook, https://www.youtube.com/watch?v=Ev3jF4vjeGw How I Taught Myself an Entire College Level Math Textbook, https://www.</description>
-    </item>
-    
-    <item>
-      <title>study with me</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012235314-study_with_me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bigaidream-garden.github.io/posts/20201012235314-study_with_me/</guid>
-      <description>keywords how to study  I&amp;rsquo;ve been working from home since March. I feel that I&amp;rsquo;m not very productive and tend to procrastinate quite often. I decide to try &amp;ldquo;study with me&amp;rdquo; tricks.
-https://digitalalberta.com/study-with-me-youtube-gives-students-new-study-tools/
- Every once in a while I would glance over at the video and see how concentrated they were with their studying and it would motivate me to stay focused. I can&amp;rsquo;t say why this is, but it was almost as if I felt like I had to study harder because the person on my screen was focused.</description>
+      <guid>https://bigaidream-garden.github.io/posts/vim/</guid>
+      <description>Study Vim  https://github.com/iggredible/Learn-Vim  </description>
     </item>
     
     <item>
       <title>你头顶有个感叹号</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012224045-%E4%BD%A0%E5%A4%B4%E9%A1%B6%E6%9C%89%E4%B8%AA%E6%84%9F%E5%8F%B9%E5%8F%B7/</link>
+      <link>https://bigaidream-garden.github.io/posts/%E4%BD%A0%E5%A4%B4%E9%A1%B6%E6%9C%89%E4%B8%AA%E6%84%9F%E5%8F%B9%E5%8F%B7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012224045-%E4%BD%A0%E5%A4%B4%E9%A1%B6%E6%9C%89%E4%B8%AA%E6%84%9F%E5%8F%B9%E5%8F%B7/</guid>
+      <guid>https://bigaidream-garden.github.io/posts/%E4%BD%A0%E5%A4%B4%E9%A1%B6%E6%9C%89%E4%B8%AA%E6%84%9F%E5%8F%B9%E5%8F%B7/</guid>
       <description>我觉得自己有拖延症。我叭，似乎有意无意中拖延了自己的生长速度。
 我真的成熟了吗？
 如果我的级别不够，还需要去接任务吗？
@@ -121,10 +118,10 @@ https://digitalalberta.com/study-with-me-youtube-gives-students-new-study-tools/
     
     <item>
       <title>回到过去</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012233643-%E5%9B%9E%E5%88%B0%E8%BF%87%E5%8E%BB/</link>
+      <link>https://bigaidream-garden.github.io/posts/%E5%9B%9E%E5%88%B0%E8%BF%87%E5%8E%BB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012233643-%E5%9B%9E%E5%88%B0%E8%BF%87%E5%8E%BB/</guid>
+      <guid>https://bigaidream-garden.github.io/posts/%E5%9B%9E%E5%88%B0%E8%BF%87%E5%8E%BB/</guid>
       <description> 2016-02-08
  我想做一个有故事并且会笑着讲故事的人。
 梦境：我的时光机 我们并不总如自己想象的那么老实，即便面对自己。那些青春片的导演，比如九把刀，都是因为记性太好，又不甘心只用回忆抵抗余生，于是为自己造了一架时光机。 我们大概只是想更明白地看懂自己。
@@ -153,10 +150,10 @@ https://digitalalberta.com/study-with-me-youtube-gives-students-new-study-tools/
     
     <item>
       <title>希波克拉底誓言</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012225608-%E5%B8%8C%E6%B3%A2%E5%85%8B%E6%8B%89%E5%BA%95%E8%AA%93%E8%A8%80/</link>
+      <link>https://bigaidream-garden.github.io/posts/%E5%B8%8C%E6%B3%A2%E5%85%8B%E6%8B%89%E5%BA%95%E8%AA%93%E8%A8%80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012225608-%E5%B8%8C%E6%B3%A2%E5%85%8B%E6%8B%89%E5%BA%95%E8%AA%93%E8%A8%80/</guid>
+      <guid>https://bigaidream-garden.github.io/posts/%E5%B8%8C%E6%B3%A2%E5%85%8B%E6%8B%89%E5%BA%95%E8%AA%93%E8%A8%80/</guid>
       <description>2017-01
  希波克拉底誓词，俗称医师誓词，是西方医生传统上行医前的誓言，希波克拉底乃古希腊医者，被誉为西方&amp;quot;医学之父&amp;quot;，在希波克拉底所立的这份誓词中，列出了一些特定的伦理上的规范。20世纪里许多高校，尤其是美国的高校在授予博士学位的仪式上使用希波克拉底誓词。
 我博士临近毕业了，想起了多年前的一个人。虽然她早已不在人世间，但她永远是我的恩人，是她告诉了我生命的可贵和脆弱。从那时起，我开始很严肃地思考有没有办法彻底让人类摆脱疾病和衰老的纠缠。我觉得生命科学里的很多步骤都可以用人工智能的方法获得极大的加速，于是我决定PhD的方向就是人工智能。现在我已经跟医学院的人开始合作，进行癌症的早期检测了。
@@ -188,10 +185,10 @@ https://digitalalberta.com/study-with-me-youtube-gives-students-new-study-tools/
     
     <item>
       <title>龙破斩</title>
-      <link>https://bigaidream-garden.github.io/posts/20201012225313-%E9%BE%99%E7%A0%B4%E6%96%A9/</link>
+      <link>https://bigaidream-garden.github.io/posts/%E9%BE%99%E7%A0%B4%E6%96%A9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bigaidream-garden.github.io/posts/20201012225313-%E9%BE%99%E7%A0%B4%E6%96%A9/</guid>
+      <guid>https://bigaidream-garden.github.io/posts/%E9%BE%99%E7%A0%B4%E6%96%A9/</guid>
       <description>2018
  在《秀逗魔导师》里，每当莉娜·因巴斯一生起气来，就会使用龙破斩来发泄自己的怒气——比如毁掉一个村子。 龙破斩是莉娜·因巴斯的黑魔法，威力巨大，但是需要吟唱时间。
 有时候我也“骗”自己，自己只是跟别人步调不一致而已，我会慢慢赶上。 其实我一点也不坚强，我经常怀疑自己。
