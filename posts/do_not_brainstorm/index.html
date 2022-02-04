@@ -78,6 +78,8 @@
 
    
 
+   
+
 
 
 
@@ -99,7 +101,7 @@ window.store = {
         
         "title": "Index",
         "tags": [],
-        "content": "Who, What, Why and How?  Update: Sep/17/2021\n Hi, this is your friend Jie, homepage.\nIn French, “cultiver son jardin intérieur” means to tend to your internal garden (mind) \u0026ndash; Digital Gardening. I am doing this experiment to share my learning process in this public mind garden, which also motivates me to reflect/finetune my life/work pipeline.\nI\u0026rsquo;m using GNU Emacs, Org Roam for non-hierarchical graph-based note-taking. With the emacs ecosystem, I can do lots of fancy things, e.g. easily linking each page of local PDFs to notes (via org noter), writing complicated LaTeX notes, storing useful code snippets. I port some public notes here.\nYou can start hopping around by going to the full index. I made some entry points here:\n Life cn  ", 
+        "content": "Who, What, Why and How?  Update: Feb/4/2022\n Hi, this is your friend Jie, homepage.\nIn French, “cultiver son jardin intérieur” means to tend to your internal garden (mind) \u0026ndash; Digital Gardening. I am doing this experiment to share my learning process in this public mind garden, which also motivates me to reflect/finetune my life/work pipeline.\nI\u0026rsquo;m using GNU Emacs, Org Roam for non-hierarchical graph-based note-taking. With the emacs ecosystem, I can do lots of fancy things, e.g. easily linking each page of local PDFs to notes (via org noter), writing complicated LaTeX notes, storing useful code snippets. I port some public notes here.\nYou can start hopping around by going to the full index. I made some entry points here:\n Life cn  ", 
         "url": "https:\/\/bigaidream-garden.github.io\/"
     },
     
@@ -199,8 +201,18 @@ window.store = {
         
         "title": "note taking",
         "tags": [],
-        "content": " keywords How to study  tags :\ncreate time :\n update time \u0026lt;2020-10-30 Fri\u0026gt;  General Taking notes while reading (either textbooks or papers) can force me to study actively, and thus understand materials more deeply and maintain longer. However, I used to make notes as self-contained as possible, such that I don\u0026rsquo;t have to refer to the original materials. I often see this form of notes in Github. This way of taking notes would consume lots of time. As discussed by Scott Young, we should mix the notes and original materials. This can be achieved with Emacs tools like Interleave.\nMath Notes I will start reading math books/papers by de-coding the proof with Structured Proof . It seems that the original pf2 tool is bit outdated. I use the latex template given in StackExchange on enumerate for proof.\n \\begin{enumerate} \\item \\label{item:test-lamport2:1b}{Text of step 1.} \\begin{enumerate} \\item \\label{item:solution-enumitem:1} Text of substep 1 \\begin{enumerate} \\item[\\textsc{PROOF}] Paragraph proof using results in \\ref{item:solution-enumitem:1}. $\\blacksquare$ \\end{enumerate}\n\\item \\label{label-2.1}{Text of substep 2} \\end{enumerate} \\item \\label{label-2.2}{Text of step 2} \\end{enumerate}\n [2021-02-25 Thu]  update: this structured proof is a bit too complicated, especially when editing it. Now I\u0026rsquo;m jusing using align and subequations.\nAdvices  how to take smart notes, https://www.youtube.com/watch?v=nPOI4f7yCag Why Obsidian Will Overtake Roam, https://www.youtube.com/watch?v=%5Fx54XJrECvk : tools shape us. org-roam encourages me to write coherent things.  ", 
+        "content": "Time-stamp: \u0026lt;2022-02-04 11:43:14\u0026quot;timestamp-wrapper\u0026quot;\u0026gt;\u0026lt;2022-02-02 Wed 14:34\u0026gt;\n keywords How to study  tags :\nGeneral Taking notes while reading (either textbooks or papers) can force me to study actively, and thus understand materials more deeply and maintain longer. However, I used to make notes as self-contained as possible, such that I don\u0026rsquo;t have to refer to the original materials. I often see this form of notes in Github. This way of taking notes would consume lots of time. As discussed by Scott Young, we should mix the notes and original materials. This can be achieved with Emacs tools like Interleave.\nMath Note Taking ML Math Notation  Ian Goodfellow dlbook_notation, https://github.com/goodfeli/dlbook_notation/blob/master/math_commands.tex Machine Learning Cheat Sheet, https://github.com/soulmachine/machine-learning-cheat-sheet Suggested Notation for Machine Learning, https://github.com/mazhengcn/suggested-notation-for-machine-learning  Others' example  http://dec41.user.srcf.net/notes/ Structured proof with enumerate: https://tex.stackexchange.com/questions/443326/lamport-pf2-sty-and-hide-show-parts-of-nested-enumerate-environment How I\u0026rsquo;m able to take notes in mathematics lectures using LaTeX and Vim, https://castel.dev/post/lecture-notes-1/ How I draw figures for my mathematical lecture notes using Inkscape, https://castel.dev/post/lecture-notes-2/ GeneKao, org mode latex templates, https://github.com/GeneKao/orgmode-latex-templates  Math Structured Proof I read math books/papers by de-coding the proof with Structured Proof . The original pf2 tool is outdated. I use the latex template given in StackExchange on enumerate for proof.\n\\begin{enumerate} \\item \\label{item:test-lamport2:1b}{Text of step 1.} \\begin{enumerate} \\item \\label{item:solution-enumitem:1} Text of substep 1 \\begin{enumerate} \\item[\\textsc{PROOF}] Paragraph proof using results in \\ref{item:solution-enumitem:1}. $\\blacksquare$ \\end{enumerate}\n\\item \\label{label-2.1}{Text of substep 2} \\end{enumerate} \\item \\label{label-2.2}{Text of step 2} \\end{enumerate}\n[2021-02-25 Thu]  update: this structured proof is a bit too complicated, especially when editing it. For most simple cases, I\u0026rsquo;m jusing using align and subequations, as in https://tex.stackexchange.com/questions/27283/how-to-correctly-format-and-align-a-latex-proof\n\\begin{subequations} \\begin{align} 4xyzw \u0026amp;= 2\\cdot2tu \\\\ \u0026amp;\\le 2\\cdot(t^2+u^2) \\label{eq:a} \\\\ \u0026amp;= 2\\cdot((xy)^2+(zw)^2) \u0026amp;\u0026amp;\\text{(substituting variables)} \\\\ \u0026amp; \\textsc{PROOF} \\quad \\text{we can refer to \\eqref{eq:a} } \\nonumber \\\\ \u0026amp;= x^4+y^4+z^4+w^4 \\end{align} \\end{subequations}\nAdvices  https://www.youtube.com/watch?v=wB89lJs5A3s, My 2021 Comprehensive Obsidian Zettelkasten Workflow how to take smart notes, https://www.youtube.com/watch?v=nPOI4f7yCag Why Obsidian Will Overtake Roam, https://www.youtube.com/watch?v=_x54XJrECvk : tools shape us. org-roam encourages me to write coherent things  ", 
         "url": "https:\/\/bigaidream-garden.github.io\/posts\/note_taking\/"
+    },
+    
+    
+    
+    "https:\/\/bigaidream-garden.github.io\/posts\/parallel_training\/": {
+        
+        "title": "parallel training",
+        "tags": [],
+        "content": "Time-stamp: \u0026lt;2022-02-04 11:44:47\u0026quot;timestamp-wrapper\u0026quot;\u0026gt;\u0026lt;2022-02-04 Fri 11:44\u0026gt;\nParallel Pytorch  Tsinghua TDS, https://github.com/TsinghuaAI/TDS DeepSpeed Fully Sharded Data Parallel: faster AI training with fewer GPUs, https://engineering.fb.com/2021/07/15/open-source/fsdp/ DietGPU, https://github.com/facebookresearch/dietgpu  Fast dataloader  FFCV, https://ffcv.io/  ", 
+        "url": "https:\/\/bigaidream-garden.github.io\/posts\/parallel_training\/"
     },
     
     

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><title>note taking</title>
+<html><title>parallel training</title>
 
 
 <meta charset="utf-8">
@@ -26,65 +26,18 @@
   <div class="grid">
     <div class="page" data-level="1">
       <div class="content">
-        <h1>note taking</h1>
-        <p>Time-stamp: &lt;2022-02-04 11:43:14&quot;timestamp-wrapper&quot;&gt;<span class="timestamp">&lt;2022-02-02 Wed 14:34&gt;</span></span></p>
-<dl>
-<dt>keywords</dt>
-<dd><a href="/posts/how_to_study/">How to study</a></dd>
-</dl>
-<p>tags
-:</p>
-<h2 id="general">General</h2>
-<p>Taking notes while reading (either textbooks or papers) can force me to study actively, and thus understand materials more deeply and maintain longer.
-However, I used to make notes as self-contained as possible, such that I don&rsquo;t have to refer to the original materials.
-I often see this form of notes in Github.
-This way of taking notes would consume lots of time.
-As discussed by <a href="https://youtu.be/AHCMay7TKAQ?t=186">Scott Young</a>, we should mix the notes and original materials.
-This can be achieved with Emacs tools like <a href="https://github.com/rudolfochrist/interleave">Interleave</a>.</p>
-<h2 id="math-note-taking">Math Note Taking</h2>
-<h3 id="ml-math-notation">ML Math Notation</h3>
+        <h1>parallel training</h1>
+        <p>Time-stamp: &lt;2022-02-04 11:44:47&quot;timestamp-wrapper&quot;&gt;<span class="timestamp">&lt;2022-02-04 Fri 11:44&gt;</span></span></p>
+<h2 id="parallel-pytorch">Parallel Pytorch</h2>
 <ul>
-<li>Ian Goodfellow dlbook_notation, <a href="https://github.com/goodfeli/dlbook_notation/blob/master/math_commands.tex">https://github.com/goodfeli/dlbook_notation/blob/master/math_commands.tex</a></li>
-<li>Machine Learning Cheat Sheet, <a href="https://github.com/soulmachine/machine-learning-cheat-sheet">https://github.com/soulmachine/machine-learning-cheat-sheet</a></li>
-<li>Suggested Notation for Machine Learning, <a href="https://github.com/mazhengcn/suggested-notation-for-machine-learning">https://github.com/mazhengcn/suggested-notation-for-machine-learning</a></li>
+<li>Tsinghua TDS, <a href="https://github.com/TsinghuaAI/TDS">https://github.com/TsinghuaAI/TDS</a></li>
+<li>DeepSpeed</li>
+<li>Fully Sharded Data Parallel: faster AI training with fewer GPUs, <a href="https://engineering.fb.com/2021/07/15/open-source/fsdp/">https://engineering.fb.com/2021/07/15/open-source/fsdp/</a></li>
+<li>DietGPU, <a href="https://github.com/facebookresearch/dietgpu">https://github.com/facebookresearch/dietgpu</a></li>
 </ul>
-<h3 id="others-example">Others' example</h3>
+<h2 id="fast-dataloader">Fast dataloader</h2>
 <ul>
-<li><a href="http://dec41.user.srcf.net/notes/">http://dec41.user.srcf.net/notes/</a></li>
-<li>Structured proof with enumerate: <a href="https://tex.stackexchange.com/questions/443326/lamport-pf2-sty-and-hide-show-parts-of-nested-enumerate-environment">https://tex.stackexchange.com/questions/443326/lamport-pf2-sty-and-hide-show-parts-of-nested-enumerate-environment</a></li>
-<li>How I&rsquo;m able to take notes in mathematics lectures using LaTeX and Vim, <a href="https://castel.dev/post/lecture-notes-1/">https://castel.dev/post/lecture-notes-1/</a></li>
-<li>How I draw figures for my mathematical lecture notes using Inkscape, <a href="https://castel.dev/post/lecture-notes-2/">https://castel.dev/post/lecture-notes-2/</a></li>
-<li>GeneKao, org mode latex templates, <a href="https://github.com/GeneKao/orgmode-latex-templates">https://github.com/GeneKao/orgmode-latex-templates</a></li>
-</ul>
-<h3 id="math-structured-proof">Math Structured Proof</h3>
-<p>I read math books/papers by de-coding the proof with <a href="https://lamport.azurewebsites.net/pubs/proof.pdf">Structured Proof</a> . The original pf2 tool is outdated. I use the latex template given in <a href="https://tex.stackexchange.com/questions/443326/lamport-pf2-sty-and-hide-show-parts-of-nested-enumerate-environment">StackExchange on enumerate for proof</a>.</p>
-<p>\begin{enumerate}
-\item \label{item:test-lamport2:1b}{Text of step 1.}
-\begin{enumerate}
-\item \label{item:solution-enumitem:1} Text of substep 1
-\begin{enumerate}
-\item[\textsc{PROOF}] Paragraph proof using results in
-\ref{item:solution-enumitem:1}. $\blacksquare$
-\end{enumerate}</p>
-<p>\item \label{label-2.1}{Text of substep 2}
-\end{enumerate}
-\item \label{label-2.2}{Text of step 2}
-\end{enumerate}</p>
-<p><span class="timestamp-wrapper"><span class="timestamp">[2021-02-25 Thu] </span></span> update: this structured proof is a bit too complicated, especially when editing it. For most simple cases, I&rsquo;m jusing using align and subequations, as in <a href="https://tex.stackexchange.com/questions/27283/how-to-correctly-format-and-align-a-latex-proof">https://tex.stackexchange.com/questions/27283/how-to-correctly-format-and-align-a-latex-proof</a></p>
-<p>\begin{subequations}
-\begin{align}
-4xyzw &amp;= 2\cdot2tu \\
-&amp;\le 2\cdot(t^2+u^2)  \label{eq:a}    \\
-&amp;= 2\cdot((xy)^2+(zw)^2) &amp;&amp;\text{(substituting variables)} \\
-&amp; \textsc{PROOF} \quad \text{we can refer to \eqref{eq:a} } \nonumber \\
-&amp;= x^4+y^4+z^4+w^4
-\end{align}
-\end{subequations}</p>
-<h2 id="advices">Advices</h2>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=wB89lJs5A3s">https://www.youtube.com/watch?v=wB89lJs5A3s</a>, My 2021 Comprehensive Obsidian Zettelkasten Workflow</li>
-<li>how to take smart notes, <a href="https://www.youtube.com/watch?v=nPOI4f7yCag">https://www.youtube.com/watch?v=nPOI4f7yCag</a></li>
-<li>Why Obsidian Will Overtake Roam, <a href="https://www.youtube.com/watch?v=_x54XJrECvk">https://www.youtube.com/watch?v=_x54XJrECvk</a> : tools shape us. org-roam encourages me to write coherent things</li>
+<li>FFCV, <a href="https://ffcv.io/">https://ffcv.io/</a></li>
 </ul>
 
       </div>
